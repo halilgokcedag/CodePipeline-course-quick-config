@@ -7,7 +7,7 @@ resource "aws_key_pair" "demo-key" {
 }
 
 resource "aws_instance" "quick-ec2_ubuntu" {
-  instance_type          = var.ec_instance_type
+  instance_type          = var.ec2_instance_type
   ami                    = var.ec2_ami
   key_name               = aws_key_pair.demo-key.id
   user_data              = file("user-data.tpl")
