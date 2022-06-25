@@ -2,9 +2,9 @@
 
 ### About The Project
 
-Created this project to help other students taking the [Udemy CodePipeline Course](https://www.udemy.com/course/aws-codepipeline-step-by-step/) and using and AWS Cloud Playground.Cloud Playgrounds expire after some time. Also, sometimes it might be a good to start from scratch. This code helps to build some of the basic configuration used in the course.
+Created this Terraform code to help other students taking the [Udemy CodePipeline Course](https://www.udemy.com/course/aws-codepipeline-step-by-step/) and using an AWS Cloud Playground.Cloud Playgrounds expire after some time. Also, sometimes it might be a good to start from scratch. This code helps to build some of the basic configuration used in the course.
 
-This code creates the following:
+This code creates the following resources that are needed in the course:
 
 - An instance profile
 - A service role 
