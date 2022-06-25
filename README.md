@@ -7,7 +7,7 @@ Created this Terraform code to help other students taking the [Udemy CodePipelin
 This code creates the following resources that are needed in the course:
 
 - An instance profile
-- A service role 
+- Two service roles (one for CodeDeploy and one for CloudFormation)
 - An EC2 instance
 - A CodeCommit repository.
 
